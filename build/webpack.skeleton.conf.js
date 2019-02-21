@@ -14,7 +14,7 @@ const VueSSRServerPlugin = require('vue-server-renderer/server-plugin')
 
 module.exports = merge(baseWebpackConfig, {
   entry: {
-    app: './src/skeleton-entry.js',
+    app: './src/ssr-entry.js',
     // welcome: './src/welcome-bootstrap.ts',
     // virtualOffice: './src/virtual-office-bootstrap.ts',
   },

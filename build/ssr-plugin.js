@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path');
 
 const Vue = require('vue');
-const serverBundle = require('../dist/vue-ssr-server-bundle.json')
+const serverBundle = require('../docs/vue-ssr-server-bundle.json')
 const resolve = file => path.resolve(__dirname, file)
 const templatePath = resolve('../index.template.html')
 const template = fs.readFileSync(templatePath, 'utf-8')

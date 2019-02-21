@@ -6,11 +6,12 @@ const path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    app: path.resolve(__dirname, '../dist/app.html'),
-    login: path.resolve(__dirname, '../dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    app: path.resolve(__dirname, '../docs/app.html'),
+    login: path.resolve(__dirname, '../docs/index.html'),
+    assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://alex2wong.github.io/mpa-template/dist/',
+    assetsPublicPath: '/',
+    // assetsPublicPath: 'https://alex2wong.github.io/mpa-template/dist/',
     productionSourceMap: false,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.

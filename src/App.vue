@@ -7,7 +7,6 @@
       <router-link to="/hello">Hello</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/lazy">LazyLoad</router-link>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>

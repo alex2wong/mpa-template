@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "ssr": "webpack --config build/webpack.skeleton.conf.js && npm run build",
-    "serve": "node build/build.js && cd ./dist && http-server",
+    "serve": "npm run build && cd ./docs && http-server",
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
